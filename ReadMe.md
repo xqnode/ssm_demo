@@ -1,3 +1,4 @@
+## 项目名称：SSM_DEMO
 - SSM脚手架，拿来即用
 - 下载代码，在idea中打开，配置tomcat启动
 - 访问路径: http://localhost:8801/ssm/user/findAll
