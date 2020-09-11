@@ -8,30 +8,34 @@
     <artifactId>ssm_demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <spring-version>4.3.13.RELEASE</spring-version>
+    </properties>
+
     <dependencies>
         <!--spring-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>4.3.13.RELEASE</version>
+            <version>${spring-version}</version>
         </dependency>
         <!--配置webmvc-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
-            <version>4.3.13.RELEASE</version>
+            <version>${spring-version}</version>
         </dependency>
         <!--配置spring jdbc,用来加载DataSourceTransactionManager-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>4.3.13.RELEASE</version>
+            <version>${spring-version}</version>
         </dependency>
         <!--配置切面的jar包-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
-            <version>4.3.13.RELEASE</version>
+            <version>${spring-version}</version>
         </dependency>
         <!--mybatis，用来加载SqlSessionFactoryBean和MapperScannerConfigurer-->
         <dependency>
@@ -43,6 +47,11 @@
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis-spring</artifactId>
             <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper</artifactId>
+            <version>4.1.5</version>
         </dependency>
         <!--数据库驱动包-->
         <dependency>

@@ -14,6 +14,10 @@ public class UserService {
     private UserDao userDao;
 
     public List<User> findAll() {
-        return userDao.findAll();
+        return userDao.selectAll();
+    }
+
+    public User findById(Integer id) {
+        return null;
     }
 }

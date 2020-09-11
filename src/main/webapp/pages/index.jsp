@@ -8,6 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    Hello World
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script>
+        $.get("/ssm/user/findAll", function (res) {
+            console.log(res);
+        })
+    </script>
 </body>
 </html>

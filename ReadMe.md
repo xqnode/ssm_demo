@@ -4,3 +4,8 @@
 - 访问路径: http://localhost:8801/ssm/pages/
 > 注意：8801端口和 "/ssm/pages/" 都是我在tomcat中配置好的，实际使用时需要根据你的配置访问。
 - 静态资源放在webapp目录下，即可访问，例如webapp目录下的pages/index.html
+
+## 配置
+- 在工程配置里加入lib：
+![](https://img-blog.csdnimg.cn/2020091117015212.png)
+否则会报找不到class
