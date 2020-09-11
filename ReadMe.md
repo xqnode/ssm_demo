@@ -9,3 +9,6 @@
 - 在工程配置里加入lib：
 ![](https://img-blog.csdnimg.cn/2020091117015212.png)
 否则会报找不到class
+
+- 静态文件访问，需要设置webapp
+![](https://img-blog.csdnimg.cn/20200911174230169.png)
